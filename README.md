@@ -4,7 +4,7 @@
 
 This project implements a complete workflow for traffic forecasting using machine learning and time series forecasting techniques. In addition to generating accurate traffic predictions, the project focuses on model interpretability through SHAP (SHapley Additive exPlanations), providing insights into the factors driving forecast outcomes.
 
-Link to used dataset:https://www.kaggle.com/datasets/rauffauzanrambe/smart-city-traffic-flow-prediction-dataset
+Link to used dataset: https://www.kaggle.com/datasets/rauffauzanrambe/smart-city-traffic-flow-prediction-dataset
 
 ## Features
 
