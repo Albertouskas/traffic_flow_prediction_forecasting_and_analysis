@@ -3,4 +3,5 @@
 *.json
 *.zip
 
-
+# Information folder
+catboost_info
