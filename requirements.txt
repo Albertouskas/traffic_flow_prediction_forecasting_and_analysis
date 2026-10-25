@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+ipykernel
+chronos-forecasting
+timesfm[torch]
+transformers==4.57.6
+uni2ts

@@ -74,3 +74,19 @@ git clone https://github.com/<username>/traffic-forecasting-shap.git
 cd traffic-forecasting-shap
 
 pip install -r requirements.txt
+```
+
+## Python 3.12 Notebook Kernel
+
+Moirai 2 (`uni2ts`) needs a Python environment with a compatible NumPy wheel. Create a separate Python 3.12 environment for the TSFM notebook:
+
+```bash
+python3.12 -m venv .venv-tsfm
+source .venv-tsfm/bin/activate
+python -m pip install --upgrade pip
+python -m pip install torch==2.4.1 --index-url https://download.pytorch.org/whl/cpu
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name traffic-tsfm-py312 --display-name "Python (traffic TSFM, 3.12)"
+```
+
+Then select **Python (traffic TSFM, 3.12)** as the notebook kernel and run the notebook cells from the top. Install Python 3.12 first if it is not already available; this project's current Python 3.14 environment cannot install `uni2ts` successfully.

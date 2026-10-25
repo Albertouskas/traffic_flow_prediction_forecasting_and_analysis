@@ -5,3 +5,5 @@
 
 # Information folder
 catboost_info
+*.venv-tsfm
+
