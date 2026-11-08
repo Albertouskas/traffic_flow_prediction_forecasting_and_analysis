@@ -8,3 +8,4 @@ chronos-forecasting
 timesfm[torch]
 transformers==4.57.6
 uni2ts
+timestral @ git+https://github.com/mistralai/timestral.git
